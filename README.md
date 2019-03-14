@@ -2,4 +2,5 @@
 
 This is a basic Reinforcement Learning Guide
 
-* [Index](index.md)
+* [Markdown Guide](Docs/markdown_guide.md)
+* [Basics](Docs/basics.md)

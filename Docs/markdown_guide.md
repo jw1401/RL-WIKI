@@ -1,14 +1,3 @@
-## Reinforcement Learning
-
-### Basics
-* Definition
-* Marcov Decision Process
-* Bellman Equation
-* Q-Learning Algortihm (Table Style)
-
-
----
-
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -30,8 +19,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
