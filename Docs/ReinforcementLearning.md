@@ -1,5 +1,3 @@
-# Reinforcement learning
-
 ## Math
 statistics, probability theory, expectations, calculus, algebra
 
