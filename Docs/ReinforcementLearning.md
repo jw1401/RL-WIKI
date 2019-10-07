@@ -77,26 +77,29 @@ GAE (General Advantage Estimate)
 model-free, model-based 
 on-policy, off-policy
 
-Baseline algorithms (OpenAI, Uber, Berkley)
+### MISC
 
-Reward engineering
-Sparse reward problem
-Dense rewards
-Curiosity driven learning - intrinsic rewards
+- Baseline algorithms (OpenAI, Uber, Berkley)
 
-Inverse RL (learning a reward function)
+- Reward engineering
+- Sparse reward problem
+- Dense rewards
+- Curiosity driven learning - intrinsic rewards
 
-Multiagent environment
-Concurrent agent learning
-Multiple agents
+- Inverse RL (learning a reward function)
 
-Meta learning
-Learn to learn
+- Multiagent environment
+- Concurrent agent learning
+- Multiple agents
 
-Hierarchy learning
-Make subtask policies and master policy
+- Meta learning
+- Learn to learn
 
-Imitation learning, behavioral cloning (VR, AR)
+- Hierarchy learning
+- Make subtask policies and master policy
+
+### Imitation learning, behavioral cloning (VR, AR)
+
 Learning by showing samples to the agent by experts
 
 Curriculum learning
