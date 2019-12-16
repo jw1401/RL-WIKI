@@ -11,6 +11,3 @@
 * Linear Regression
 * Logistsics Regression
 * Neural Networks
-
-
----
