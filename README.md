@@ -5,7 +5,7 @@
 * [Reinforcement Learing](Docs/ReinforcementLearning.md)
 * [Simulation](Docs/Simulation.md)
 
----
+
 
 # Frameworks 
 
@@ -17,7 +17,7 @@ Tensorflow| https://www.tensorflow.org/
 Keras     | https://keras.io/
 PyTorch   | https://pytorch.org/
 
----
+
 
 # Blogs
 
