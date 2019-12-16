@@ -8,27 +8,27 @@
 
 ## Methods
 
-Deep learning with neural networks
 - Linear Regression
 - Logistics Regression
-
-## Other Methods
+- Neural Networks (Deep Learning)
 - Support Vector Machines
 - Random Forest
 - K-Means (Unsupervised)
+- ...
 
-
-## Tools
+## Libraries
 
 - SCKIT
-- Tensorflow (KERAS)
+- Tensorflow
+- KERAS
 - PyTorch
 
 
 # ML Algorithms
 
-Basics
-MSE, derivation, update rules, Function approximators
+- Mean Squared Error
+- Derivation (Auto Diff)
+- Function Approximators
 
 ## Linear regression
 
@@ -40,15 +40,16 @@ Mean Squared Error (MSE) = 1/n * Summe(xi-x)²
 The goal is to minimize the MSE to fit the Function to the dataset.
     
     Steps to take:
-Derivative of MSE for calculating gradients 
-error is via gradients backpropagation
-Make gradient descent iteration until minimum is reached
+    
+    Derivative of MSE for calculating gradients 
+    Error is backpropagated via gradient descent
+    Make gradient descent iteration until minimum is reached
 
-coefficients w and d of line equation are fitted with training data [x,y] until mean squared error is minimized. The trained model is used for inference (predictions)
+Coefficients w and d of line equation are fitted with training data [x,y] until mean squared error is minimized. The trained model is used for inference (predictions)
 
 ## Logistic regression
 
-For classification tasks with sigmoid function. Same calc process as linear regression.
+For classification tasks with sigmoid function. Same compuational process as linear regression.
 
 ## Neural-Networks (nonlinear problems)
 
