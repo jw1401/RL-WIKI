@@ -1,5 +1,3 @@
-![WIKI](WIKI.png)
-
 # Wiki
 
 * [Basics](Docs/basics.md)
