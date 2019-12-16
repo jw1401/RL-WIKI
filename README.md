@@ -1,3 +1,5 @@
+![WIKI][WIKI]
+
 # Wiki
 
 * [Basics](Docs/basics.md)
