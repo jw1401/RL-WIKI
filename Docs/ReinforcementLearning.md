@@ -1,23 +1,27 @@
 ## Math
-statistics, probability theory, expectations, calculus, algebra
 
-## Markov decision process
+- Statistics and Probability theory, 
+- calculus
+- algebra
+
+## Markov Decision Process
+- Framework for RL
 
 ## RL terminology
 
-Value learning
-V, Q, A
-Bellman equation
-Monte-Carlo vs TD methods
-Exploration-Exploitation 
+- Value learning
+- Value, Q(s,a), Advantage
+- Bellman equation
+- Monte-Carlo vs Temporal Difference methods
+- Exploration-Exploitation trade-off
 
 ## RL Algorithms
 
 ### Q-Learning, Value based, tabular approach
 
-DQN, Q-Learning with deep neural networks
+- DQN Q-Learning tabular or with Deep Neural Networks
 
-DQN advances - Target network, Double Q, Duelling Q, Prioritized experience replay
+- DQN advances - Target network, Double Q, Duelling Q, Prioritized experience replay
 
 In Deep Q learning a value function is learned via Regression (Function fitting) with MSE via the Bellman equation
 
@@ -27,9 +31,9 @@ Search can be done greedily - always chose ARGMAX(Value)
 
 Exploration exploitation - epsilon greedy trade off
   
-always goes to the global optimum
-just for discrete action spaces
-has high variance
+- always goes to the global optimum
+- just for discrete action spaces
+- has high variance
 
 ### Policy gradient methods with neural networks
 
@@ -47,15 +51,11 @@ Backpropagate this gradient for adjusting the weights and biases of the network.
 
 Exploration exploitation trade off - sampling from categorical distribution makes this automatically
 
-            
 Policy Gradient with baseline
 Policy Gradient with rewards to go
     
-
-
 ### Actor critic methods (mix value learning with Policy gradient)
 
-Actor Critic
 Value Function is learned with regression fitting
 Policy Gradient Method is updated with the critic Value
 g = critic_v * log(p)  
@@ -64,16 +64,23 @@ A3C rolls out multiple actors that act in different instances of the training en
  
 A2C - Synchronous version of A3C - Policy update is performed after all agents stopped collecting samples. The gradient is averages over all agents samples. So the agents always train on the same policy
 
-PPO
-Actor Critic with Clipping to stay in a trust region for the policy update
-GAE (General Advantage Estimate)
+PPO (Proximal Policy Optimzation)
+Actor Critic with Clipping during gradient update to stay in a trust region for the policy update
+Make use of GAE (General Advantage Estimate)
+
+Us Entropy bonus for exploration
 
 ### Soft Actor Critic
 
+- Max Entropy RL Method
+- Like Q Learning for Continuous Acion Spaces 
+
 ### RL Algorithm categories
 
-model-free, model-based 
-on-policy, off-policy
+- Model-free
+- Model-based 
+- On-policy
+- Off-policy
 
 ### MISC
 
@@ -100,14 +107,14 @@ on-policy, off-policy
 
 Learning by showing samples to the agent by experts
 
-Curriculum learning
+- Curriculum learning
 Learning from easy to hard tasks
 
-Metrics
+- Metrics
 Performance measuring
 Generalization abilities of agent
 
-AI Safety
+- AI Safety
 Understand what the trained agent is doing and can you trust him
 Agent visualisation 
 Agent testing
