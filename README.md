@@ -9,7 +9,7 @@
 
 Site      |  Url
 --------- |----------
-Vue       | [https://vuejs.org/]
+Vue       | [https://vuejs.org/](https://vuejs.org/)
 Python    | https://realpython.com/
 Tensorflow| https://www.tensorflow.org/
 Keras     | https://keras.io/
