@@ -1,4 +1,4 @@
-![WIKI](https://github.com/jw1401/RL-WIKI/blob/master/WIKI.png)
+![WIKI](WIKI.png)
 
 # Wiki
 
