@@ -1,6 +1,28 @@
-This is a basic Reinforcement and Machine Learning Guide
+# Wiki
 
-* [Markdown Guide](Docs/markdown_guide.md)
 * [Basics](Docs/basics.md)
+* [Machine Learning](Docs/MachineLearning.md)
 * [Reinforcement Learing](Docs/ReinforcementLearning.md)
 * [Simulation](Docs/Simulation.md)
+
+---
+
+# Frameworks 
+
+Site      |  Url
+--------- |----------
+Vue       | https://vuejs.org/
+Python    | https://realpython.com/
+Tensorflow| https://www.tensorflow.org/
+Keras     | https://keras.io/
+PyTorch   | https://pytorch.org/
+
+---
+
+# Blogs
+
+Site      |  Url
+--------- |----------
+Spinning Up | https://spinningup.openai.com/en/latest/index.html
+BAIR        | https://bair.berkeley.edu/blog/
+Lil Log     | https://lilianweng.github.io/lil-log/
