@@ -2,25 +2,29 @@
 
 ## Unity 3D
 
-Physics engines
-Virtual and Augmented Reality
-etc.
+- Physics engine
+- 3D realistic Simulation
+- Virtual Reality 
+- Augmented Reality
+- Mixed Reality
+- ...
 
 ## Robotics
 
-Real world training
-Simulation to real world transfer
-GRPC and Sockets
+- Real world training
+- Simulation to real world transfer
+- GRPC and Sockets
 
 
 ## ROS (Robotics Operating System)
 
-more use cases
+- more use cases
+- ...
 
 ## Technical view
 
-GPU training
-AMAZON, MICROSOFT
-Docker
-Distributed
-Environment setup (Conda)
+- GPU training
+- AMAZON, AZURE
+- Docker
+- Distributed
+- Environment setup (Conda)
