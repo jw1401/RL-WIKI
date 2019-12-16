@@ -1,5 +1,3 @@
-# Wiki
-
 * [Basics](Docs/basics.md)
 * [Machine Learning](Docs/MachineLearning.md)
 * [Reinforcement Learing](Docs/ReinforcementLearning.md)
