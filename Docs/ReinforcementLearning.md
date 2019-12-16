@@ -19,11 +19,20 @@
 
 ### Q-Learning, Value based, tabular approach
 
-- DQN Q-Learning tabular or with Deep Neural Networks
+Q-Learning 
 
-- DQN advances - Target network, Double Q, Duelling Q, Prioritized experience replay
+- Tabular or with 
+- Deep Neural Networks
 
-In Deep Q learning a value function is learned via Regression (Function fitting) with MSE via the Bellman equation
+DQN advances 
+
+- Target network
+- Double Q 
+- Duelling Q
+- Prioritized experience replay
+- Noisy Networks
+
+In Deep Q learning a Value function Q(s,a) is learned with function approximation with MSE and the Bellman equation
 
 This can be done Monte Carlo or TD style or mixed via TD Lambda and the GAE 
 
