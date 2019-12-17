@@ -12,6 +12,7 @@
 * [RL from Scratch](https://medium.com/@dhruvp/how-to-write-a-neural-network-to-play-pong-from-scratch-956b57d4f6e0)
 * [RL is not working yet](https://www.alexirpan.com/2018/02/14/rl-hard.html)
 * [Open Ai Baselines](https://github.com/openai/baselines)
+* [Obs Tower Challenge - Winner Solution Unixpickle](https://github.com/unixpickle/obs-tower2)
 
 ## Simulation
 
