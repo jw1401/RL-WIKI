@@ -29,6 +29,8 @@ Site      |  Url
 Spinning Up | [https://spinningup.openai.com/en/latest/index.html](https://spinningup.openai.com/en/latest/index.html)
 BAIR        | [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
 Lil Log     | [https://lilianweng.github.io/lil-log/](https://lilianweng.github.io/lil-log/)
+Open AI     | [Open AI](https://openai.com/)
+Deepmind    | [Deepmind](https://deepmind.com/)
 
 
 
