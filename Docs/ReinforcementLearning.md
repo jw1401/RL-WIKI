@@ -59,28 +59,48 @@ Steps:
   - Calculate Rewards to go or with Baselines
   - Use Cross-Entropy Method and Rewards for gradient backpropagation. 
   
+  ```
   Cross Entropy Loss = - LOG(Policy) * Ground-Truth-Vector (Labels) ... Labels = One Hot Vector
-  
   Policy Loss = Cross Entropy Loss * Rewards
+  ```
 
 The one hot encoded can be interpreted as a fake label which consists of the choosen actions from the episode. Then Cross Entropy is computed for gradients. Gradients are multiplied with Advantage or Reward Values for decreasing or increasing the likelihood of action probabilities with respect to their Advantage. Ultimately backpropagate this gradient for adjusting the weights and biases of the NN. By sampling from a Categorical Distribution the Exploration Exploitation trade off is handled automatically.
 
     
-### Actor critic methods (mix value learning with Policy gradient)
+### Actor-Critic Methods 
 
-Value Function is learned with regression fitting
-Policy Gradient Method is updated with the critic Value
-g = critic_v * log(p)  
+Actor-Critic combines Value Learning with Policy Gradient methods. The Critic tells the Actor how good the choosen action was and updates it accordingly.
 
-A3C rolls out multiple actors that act in different instances of the training environment and collect training samples. Policy function is updated asynchronous. Maybe the agents train on an older policy.
+- Critic
+
+  Value Function is the critic and is learned with Regression methods
+
+- Actor
+
+  Policy Gradient is the actor which is updated with the critics values
+
+```
+  Policy Loss = - LOG(Policy) * Critic(Values)  
+```
+
+After a lot of interaction steps useful policies can be learned. Following advancements achive better results.
+
+- A3C 
+
+  Rolls out multiple actors that act in different environments and collect training samples. Policy function is updated asynchronous. 
  
-A2C - Synchronous version of A3C - Policy update is performed after all agents stopped collecting samples. The gradient is averages over all agents samples. So the agents always train on the same policy
+- A2C 
 
-PPO (Proximal Policy Optimzation)
-Actor Critic with Clipping during gradient update to stay in a trust region for the policy update
-Make use of GAE (General Advantage Estimate)
+  Synchronous version of A3C - Policy update is performed after all agents stopped collecting samples. The gradient averages over all agents samples. The agents always act on the same policy
 
-Us Entropy bonus for exploration
+- PPO (Proximal Policy Optimzation)
+
+  Actor-Critic method that clips gradients during the update steps to stay in a trust region of the Policy and not move to far away from the old Policy. 
+  
+
+- Make use of General Advantage Estimation (GAE) which mixes Monte Carlo with Temporal Difference Learning
+
+- Give the Policy an Entropy Bonus for better exploration
 
 ### Soft Actor Critic
 
