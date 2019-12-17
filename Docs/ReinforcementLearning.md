@@ -1,50 +1,48 @@
 # Reinforcement Learning
 
-## Math
+Reinforcement learning is the training of machine learning models to make a sequence of decisions based on observations. The agent learns to achieve a goal in an uncertain, potentially complex environment. The agent employs trial and error to come up with a solution to the problem. To get the machine to do what the programmer wants, the artificial intelligence gets either rewards or penalties for the actions it performs. Its goal is to maximize the total reward.
 
-- Statistics and Probability theory, 
-- calculus
-- algebra
 
-## Markov Decision Process
-- Framework for RL
+## Useful thigs to know
 
-## RL terminology
+- Statistics and Probability-Theory, 
+- Calculus
+- Algebra
+- Markov Decision Process
 
-- Value learning
-- Value, Q(s,a), Advantage
+
+## RL Terminology
+
+- Value based RL with V(s), Q(s,a), Advantage
 - Bellman equation
 - Monte-Carlo vs Temporal Difference methods
 - Exploration-Exploitation trade-off
 
+
 ## RL Algorithms
 
-### Q-Learning, Value based, tabular approach
+### Q-Learning
+
+Q-Learning is a value based approach where the agent takes actions where the biggest Values/Advantages (based on Rewards) can be achieved. It is suitable for Discrete action spaces and can be performed in a Tabular style or with Deep Learning.
 
 Q-Learning 
 
-- Tabular or with 
-- Deep Neural Networks
+- Tabular approach
 
-DQN advances 
+  Generates a Table where a an agent can choose the most valuable Action based on its state via the Q-Value
+     
+- Deep Neural Networks --> Deep Q Learning (DQN)
 
-- Target network
-- Double Q 
-- Duelling Q
-- Prioritized experience replay
-- Noisy Networks
+  States are feed to a Neural Networ that outputs Q-Values for actions. The NN is learning the Q-Values by interacting with the       Environment. For Eyploitation/ Exploration a Epsilon Greedy Trade Off is used. Greedily means- always chose the most valuable Value (ARGMAX of Value). Exploration means to use random actions. Q-Learning always goes to the global optimum but has a high variance.
 
-In Deep Q learning a Value function Q(s,a) is learned with function approximation with MSE and the Bellman equation
+DQN Advances 
 
-This can be done Monte Carlo or TD style or mixed via TD Lambda and the GAE 
+- Target Networks
+- Double Q Learning 
+- Duelling Q Networks
+- Prioritized Experience Replay
+- Noisy Networks for Exploration
 
-Search can be done greedily - always chose ARGMAX(Value)
-
-Exploration exploitation - epsilon greedy trade off
-  
-- always goes to the global optimum
-- just for discrete action spaces
-- has high variance
 
 ### Policy gradient methods with neural networks
 
