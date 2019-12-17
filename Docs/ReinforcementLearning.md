@@ -2,6 +2,11 @@
 
 Reinforcement learning is the training of machine learning models to make a sequence of decisions based on observations. The agent learns to achieve a goal in an uncertain, potentially complex environment. The agent employs trial and error to come up with a solution to the problem. To get the machine to do what the programmer wants, the artificial intelligence gets either rewards or penalties for the actions it performs. Its goal is to maximize the total reward.
 
+## Links
+
+- [Open AI](https://openai.com/)
+- [Deepmind](https://deepmind.com/)
+- [Opan AI Gym](https://gym.openai.com/)
 
 ## Useful thigs to know
 
