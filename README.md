@@ -1,9 +1,10 @@
 # Wiki
 
-* [Basics](Docs/basics.md)
 * [Machine Learning](Docs/MachineLearning.md)
 * [Reinforcement Learing](Docs/ReinforcementLearning.md)
 * [Simulation](Docs/Simulation.md)
+* Unity 3D
+* Robotics
 
 
 
@@ -26,3 +27,6 @@ Site      |  Url
 Spinning Up | [https://spinningup.openai.com/en/latest/index.html](https://spinningup.openai.com/en/latest/index.html)
 BAIR        | [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
 Lil Log     | [https://lilianweng.github.io/lil-log/](https://lilianweng.github.io/lil-log/)
+
+
+* Papers
