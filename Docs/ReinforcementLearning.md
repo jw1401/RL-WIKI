@@ -51,11 +51,11 @@ DQN Advances
 - Noisy Networks for Exploration
 
 
-## Policy Gradient Methods with Deep Learning
+## Policy Gradient Method with Deep Learning
 
 The Policy Gradient Method directly maps States to Actions with the goal to maximize rewards.
 
-### Vanilla Policy Gradient for Discrete Actions
+####  Vanilla Policy Gradient for Discrete Actions
 
 Steps:
  
@@ -72,7 +72,7 @@ Steps:
 The one hot encoded can be interpreted as a fake label which consists of the choosen actions from the episode. Then Cross Entropy is computed for gradients. Gradients are multiplied with Advantage or Reward Values for decreasing or increasing the likelihood of action probabilities with respect to their Advantage. Ultimately backpropagate this gradient for adjusting the weights and biases of the NN. By sampling from a Categorical Distribution the Exploration Exploitation trade off is handled automatically.
 
     
-### Actor-Critic Methods 
+## Actor-Critic Methods 
 
 Actor-Critic combines Value Learning with Policy Gradient methods. The Critic tells the Actor how good the choosen action was and updates it accordingly.
 
