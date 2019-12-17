@@ -34,6 +34,7 @@ Bootstrap   | [https://getbootstrap.com/](https://getbootstrap.com/)
 
 Site        |  Url
 ----------- |----------
+Tensorflow  | [https://blog.tensorflow.org/](https://blog.tensorflow.org/)
 Spinning Up | [https://spinningup.openai.com/en/latest/index.html](https://spinningup.openai.com/en/latest/index.html)
 BAIR        | [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
 Lil Log     | [https://lilianweng.github.io/lil-log/](https://lilianweng.github.io/lil-log/)
