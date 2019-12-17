@@ -9,6 +9,17 @@
 * [Papers](Docs/Papers.md)
 
 
+# Blogs and Sites
+
+Site        |  Url
+----------- |----------
+Tensorflow  | [https://blog.tensorflow.org/](https://blog.tensorflow.org/)
+Spinning Up | [https://spinningup.openai.com/en/latest/index.html](https://spinningup.openai.com/en/latest/index.html)
+BAIR        | [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
+Lil Log     | [https://lilianweng.github.io/lil-log/](https://lilianweng.github.io/lil-log/)
+Open AI     | [Open AI](https://openai.com/)
+Deepmind    | [Deepmind](https://deepmind.com/)
+
 
 # Machine Learning Frameworks 
 
@@ -29,17 +40,6 @@ Vue         | [https://vuejs.org/](https://vuejs.org/)
 Python      | [https://realpython.com/](https://realpython.com/)
 Bootstrap   | [https://getbootstrap.com/](https://getbootstrap.com/)
 
-
-# Blogs and Sites
-
-Site        |  Url
------------ |----------
-Tensorflow  | [https://blog.tensorflow.org/](https://blog.tensorflow.org/)
-Spinning Up | [https://spinningup.openai.com/en/latest/index.html](https://spinningup.openai.com/en/latest/index.html)
-BAIR        | [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
-Lil Log     | [https://lilianweng.github.io/lil-log/](https://lilianweng.github.io/lil-log/)
-Open AI     | [Open AI](https://openai.com/)
-Deepmind    | [Deepmind](https://deepmind.com/)
 
 
 
