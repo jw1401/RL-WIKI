@@ -44,24 +44,27 @@ DQN Advances
 - Noisy Networks for Exploration
 
 
-### Policy gradient methods with neural networks
+### Policy Gradient Methods with Deep Learning
 
-Policy Gradient
+## Policy Gradient
 
-Categorical Network MLP constructed with softmax output layer which gives probabilities over actions that sums up to 1. 
-Backpropagate with cross-entropy multiclass log loss as starting gradient for gradient backpropagation.
+The Policy Gradient Method directly maps States to Actions with the goal to maximize rewards.
 
-cross entropy loss = - ground truth vector (labels) * LOG(output vector of categorical network)
+### Working under the hood for Discrete Actions
 
-ground truth vector (labels) = one hot encoded vector
+Steps:
+ 
+  - Feed Forward a Categorical Network (uses Softmax output which gives probabilities over actions that sums up to 1) to get actions.
+  - Interact with the Environment a receive Rewards or Punishment
+  - Calculate Rewards to go or with Baselines
+  - Use Cross-Entropy Method and Rewards for gradient backpropagation. 
+  
+  Cross Entropy Loss = - LOG(Policy) * Ground-Truth-Vector (Labels) ... Labels = One Hot Vector
+  
+  Policy Loss = Cross Entropy Loss * Rewards
 
-In RL the one hot encoded is a fake label vector which consists of the chosen actions from the episodes. Then cross entropy is calculated for error gradient which is multiplied with advantage value for decreasing or increasing the likelihoods with respect to their advantage. 
-Backpropagate this gradient for adjusting the weights and biases of the network. 
+The one hot encoded can be interpreted as a fake label which consists of the choosen actions from the episode. Then Cross Entropy is computed for gradients. Gradients are multiplied with Advantage or Reward Values for decreasing or increasing the likelihood of action probabilities with respect to their Advantage. Ultimately backpropagate this gradient for adjusting the weights and biases of the NN. By sampling from a Categorical Distribution the Exploration Exploitation trade off is handled automatically.
 
-Exploration exploitation trade off - sampling from categorical distribution makes this automatically
-
-Policy Gradient with baseline
-Policy Gradient with rewards to go
     
 ### Actor critic methods (mix value learning with Policy gradient)
 
