@@ -6,3 +6,4 @@
 * [C Sharp Tutorials](https://www.tutorialsteacher.com/csharp/csharp-tutorials)
 * [Editor Scripting](https://learn.unity.com/tutorial/editor-scripting)
 * [ML Agents](https://github.com/Unity-Technologies/ml-agents)
+* [Unity Machine Learning](https://unity3d.com/de/machine-learning)
