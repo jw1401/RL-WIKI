@@ -11,17 +11,24 @@ Reinforcement learning is the training of machine learning models to make a sequ
 - Markov Decision Process
 
 
-## RL Terminology
+## Terminology
 
 - Value based RL with V(s), Q(s,a), Advantage
 - Bellman equation
 - Monte-Carlo vs Temporal Difference methods
 - Exploration-Exploitation trade-off
 
+## Categories
 
-## RL Algorithms
+- Model-free
+- Model-based 
+- On-policy
+- Off-policy
 
-### Q-Learning
+
+# Reinfrocement Learning Algorithms
+
+## Q-Learning
 
 Q-Learning is a value based approach where the agent takes actions where the biggest Values/Advantages (based on Rewards) can be achieved. It is suitable for Discrete action spaces and can be performed in a Tabular style or with Deep Learning.
 
@@ -44,13 +51,11 @@ DQN Advances
 - Noisy Networks for Exploration
 
 
-### Policy Gradient Methods with Deep Learning
-
-## Policy Gradient
+## Policy Gradient Methods with Deep Learning
 
 The Policy Gradient Method directly maps States to Actions with the goal to maximize rewards.
 
-### Working under the hood for Discrete Actions
+### Vanilla Policy Gradient for Discrete Actions
 
 Steps:
  
@@ -102,52 +107,26 @@ After a lot of interaction steps useful policies can be learned. Following advan
 
 - Give the Policy an Entropy Bonus for better exploration
 
-### Soft Actor Critic
+## Soft Actor Critic
 
-- Max Entropy RL Method
-- Like Q Learning for Continuous Acion Spaces 
+Is an maximum Entropy Reinforcement Learning Method. Its like Q Learning but for Continuous Acion Spaces.
 
-### RL Algorithm categories
+# Imitation learning
 
-- Model-free
-- Model-based 
-- On-policy
-- Off-policy
+- Behavioral Cloning is one way of Imitation learning. This is learning by showing expert samples to the agent.
 
-### MISC
+- Curriculum learning - Learning from easy to hard tasks
+
+# Notes
 
 - Baseline algorithms (OpenAI, Uber, Berkley)
-
 - Reward engineering
-- Sparse reward problem
-- Dense rewards
-- Curiosity driven learning - intrinsic rewards
-
+- Sparse reward problem compared to Dense rewards
+- Curiosity driven learning with Intrinsic rewards
 - Inverse RL (learning a reward function)
-
 - Multiagent environment
 - Concurrent agent learning
-- Multiple agents
-
-- Meta learning
-- Learn to learn
-
+- Meta learning for learning to learn
 - Hierarchy learning
-- Make subtask policies and master policy
-
-### Imitation learning, behavioral cloning (VR, AR)
-
-Learning by showing samples to the agent by experts
-
-- Curriculum learning
-Learning from easy to hard tasks
-
-- Metrics
-Performance measuring
-Generalization abilities of agent
-
+- Metrics (Performance measuring, Generalization abilities of agent)
 - AI Safety
-Understand what the trained agent is doing and can you trust him
-Agent visualisation 
-Agent testing
-Agent NOT HALT
