@@ -19,6 +19,7 @@ Python    | [https://realpython.com/](https://realpython.com/)
 Tensorflow| [https://www.tensorflow.org/](https://www.tensorflow.org/)
 Keras     | [https://keras.io/](https://keras.io/)
 PyTorch   | [https://pytorch.org/](https://pytorch.org/)
+scikit    | [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
 
 
 
