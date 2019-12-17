@@ -5,6 +5,7 @@
 * [Simulation](Docs/Simulation.md)
 * Unity 3D
 * Robotics
+* [Papers](Docs/papers.md)
 
 
 
@@ -29,4 +30,4 @@ BAIR        | [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
 Lil Log     | [https://lilianweng.github.io/lil-log/](https://lilianweng.github.io/lil-log/)
 
 
-* Papers
+
