@@ -17,3 +17,6 @@
 ## Simulation
 
 * [Sim to real](https://arxiv.org/abs/1812.07252)
+
+## MISC
+* [MindMap](https://docs.google.com/presentation/d/1nGVgn_R2hAEIak9YRWU-ntOPb94ghYCyAfvSqA8wiRE/edit?usp=sharing)
