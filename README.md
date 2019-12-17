@@ -6,7 +6,7 @@
 * [Unity 3D](Docs/Unity.md)
 * [Robotics](Docs/Robotics.md)
 * [VR, AR, MR](Docs/VR_AR_MR.md)
-* [Papers](Docs/papers.md)
+* [Papers](Docs/Papers.md)
 
 
 
