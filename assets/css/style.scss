@@ -17,6 +17,10 @@
   
   margin-top: 10px;
   margin-bottom: 10px;
-   border-top: 1px solid white;
+  
+  
+  border: 0;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
   
 }
