@@ -10,25 +10,30 @@
 
 
 
-# Frameworks 
+# Machine Learning Frameworks 
 
-Site      |  Url
---------- |----------
-Vue       | [https://vuejs.org/](https://vuejs.org/)
-Python    | [https://realpython.com/](https://realpython.com/)
-Bootstrap | [https://getbootstrap.com/](https://getbootstrap.com/)
-Tensorflow| [https://www.tensorflow.org/](https://www.tensorflow.org/)
-Keras     | [https://keras.io/](https://keras.io/)
-PyTorch   | [https://pytorch.org/](https://pytorch.org/)
-scikit    | [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
-ML Agents | [https://github.com/Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents)
+Site        |  Url
+---------   |----------
+Tensorflow  | [https://www.tensorflow.org/](https://www.tensorflow.org/)
+Keras       | [https://keras.io/](https://keras.io/)
+PyTorch     | [https://pytorch.org/](https://pytorch.org/)
+scikit      | [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
+ML Agents   | [https://github.com/Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents)
 
 
+# Web Frameworks
 
-# Blogs
+Site        |  Url
+---------   |----------
+Vue         | [https://vuejs.org/](https://vuejs.org/)
+Python      | [https://realpython.com/](https://realpython.com/)
+Bootstrap   | [https://getbootstrap.com/](https://getbootstrap.com/)
 
-Site      |  Url
---------- |----------
+
+# Blogs and Sites
+
+Site        |  Url
+----------- |----------
 Spinning Up | [https://spinningup.openai.com/en/latest/index.html](https://spinningup.openai.com/en/latest/index.html)
 BAIR        | [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
 Lil Log     | [https://lilianweng.github.io/lil-log/](https://lilianweng.github.io/lil-log/)
