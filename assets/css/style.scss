@@ -23,3 +23,12 @@
 table {
     width:100%;
 }
+
+#sticky {
+ width: 100%;
+ padding:10px; 
+ background-color:grey;
+ position: -webkit-sticky; /* Safari */
+ position: sticky;
+ top: 0;
+}
