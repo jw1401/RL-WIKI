@@ -2,17 +2,17 @@
 
 Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead. It is seen as a subset of artificial intelligence. 
 
-### Links
+## Links
 
 - [ML Crash Course](https://developers.google.com/machine-learning/crash-course/)
 
-### Categories
+## Categories
 
 - Supervised 
 - Unsupervised
-- Reinforcement Learning
+- [Reinforcement Learning](ReinforcementLearning.md) 
 
-### Methods
+## Methods
 
 - Classification and Regression (Linear, Logistics)
 - Deep Learning with Neural Networks
@@ -23,7 +23,7 @@ Machine learning (ML) is the scientific study of algorithms and statistical mode
 - Genetic Algorithms
 - ...
 
-### Libraries
+## Libraries
 
 - SCKIT
 - Tensorflow
