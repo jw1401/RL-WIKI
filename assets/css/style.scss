@@ -28,10 +28,13 @@ table {
  width: 100%;
  padding:10px; 
  background-color:White;
- border: thin solid Gainsboro;
+ // border: thin solid Gainsboro;
  position: -webkit-sticky; /* Safari */
  position: sticky;
  top: 0;
-  
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#myImage {
+  height: 50px;
 }
