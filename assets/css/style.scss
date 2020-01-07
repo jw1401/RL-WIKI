@@ -28,14 +28,15 @@ table {
  width: 100%;
  padding:10px; 
  padding-bottom: 5px;
- background-color:White;
+ // background-color:White;
  // border: thin solid Gainsboro;
  position: -webkit-sticky; /* Safari */
  position: sticky;
  top: 0;
- box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+ // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 #myImage {
-  height: 50px;
+  height: 20px;
+  border: thin solid black;
 }
